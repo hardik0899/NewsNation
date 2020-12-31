@@ -1,4 +1,5 @@
 package com.news.nation
 
-class NewsApplication {
-}
+import android.app.Application
+
+class NewsApplication : Application() {}

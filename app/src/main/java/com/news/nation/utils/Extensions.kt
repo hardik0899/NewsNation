@@ -1,17 +1,17 @@
 package com.news.nation.utils
 
+import android.annotation.TargetApi
 import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
 import android.widget.ImageView
-import androidx.annotation.RequiresApi
 import androidx.lifecycle.AndroidViewModel
 import com.bumptech.glide.Glide
 import com.news.nation.R
 
-@RequiresApi(Build.VERSION_CODES.M)
+@TargetApi(Build.VERSION_CODES.M)
 fun <T : Application> AndroidViewModel.hasInternetConnection(): Boolean {
     val connectivityManager = getApplication<T>().getSystemService(
         Context.CONNECTIVITY_SERVICE,
