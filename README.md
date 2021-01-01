@@ -12,4 +12,4 @@ Download app <a href="https://drive.google.com/drive/folders/1ThS7-0QZUoXkZMDOWy
 
 Hit a star if you like this app.
 
-Made by 💙 by <a href="https://www.linkedin.com/in/hardik0899/"></a>
+Made by 💙 by <a href="https://www.linkedin.com/in/hardik0899/">Hardik Dua 😎</a>
